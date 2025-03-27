@@ -11,13 +11,14 @@ Este projeto implementa um aplicativo interativo para precificação de opções
 ## 📖 Como Funciona
 O modelo Black-Scholes é uma fórmula matemática utilizada para calcular o preço teórico de opções. A fórmula utilizada no aplicativo é:
 
-\[
-C = S_0 N(d_1) - Ke^{-rT} N(d_2)
-\]
 
-\[
-P = Ke^{-rT} N(-d_2) - S_0 N(-d_1)
-\]
+<p align="center">
+$$C = S_0 N(d_1) - Ke^{-rT} N(d_2)$$
+</p>
+
+<p align="center">
+$$P = Ke^{-rT} N(-d_2) - S_0 N(-d_1)$$
+</p>
 
 Onde:
 - \( C \) e \( P \) são os preços das opções Call e Put.
